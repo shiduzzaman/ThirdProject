@@ -14,43 +14,80 @@
 <body>
   
     <!-- Navbar Start Here -->
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="images/icon/logo.png" alt="" width="125px"></a>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/icon/logo.png" alt="" width="125px"></a>
+                    </div>
+                    <nav>
+                    <ul><li><a href="index.html">Home</a></li></ul>
+                    <ul><li><a href="products.html">Products</a></li></ul>
+                    <ul><li><a href="about.html">About</a></li></ul>
+                    <ul><li><a href="contact.html">Contact</a></li></ul>
+                    <ul><li><a href="account.html">Account</a></li></ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/icon/cart.png" alt="" width="30px" height="30px"></a>
                 </div>
-                <nav>
-                <ul><li><a href="index.html">Home</a></li></ul>
-                <ul><li><a href="products.html">Products</a></li></ul>
-                <ul><li><a href="about.html">About</a></li></ul>
-                <ul><li><a href="contact.html">Contact</a></li></ul>
-                <ul><li><a href="account.html">Account</a></li></ul>
-                </nav>
-                <a href="cart.html"><img src="images/icon/cart.png" alt="" width="30px" height="30px"></a>
             </div>
+        </div>
+
+             <!-- Navbar END Here -->
+
+                <!------- single-products ------ -->
+
+
+
+    <div class="small-container single-product">
+<div class="row">
+    <div class="col-2">
+        <img src="images/healthfood/gl/gl.jpg" alt="" width="100%">
+        <div class="small-img-row">
+            <div class="small-img-col">
+                <img src="images/healthfood/gl/gl_capsule.jpg" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="images/healthfood/gl/gl_side.jpg" alt="">
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="col-2">
+         <h3>Health Supliments</h3>
+             <h2> GL POWDER</h2>
+            <h2>$70.00</h2>
+            <select >
+            <option value="">80g</option>
+            <option value="">50g</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+            <h3>Products Details</h3>
+            <br>
+            <p>- Harvested from a 14-day old Mycelium of Ganoderma lucidum.
+            - Produced in a Good Manufacturing Practice (GMP) certified factory.
+            - Like RG, Ganocelium® is also available in both capsule and powder forms.</p>
+            <br>
+            <p>* Ingredient :
+                - Mycelium Ganoderma lucidum</p>
+            
+            <br>
+            <p>* Available packaging size:<br>
+                - 450mg x 30, 
+                90 and 360 capsules
+                - 30g powder/ bottle</p>
+            
+         </div>
+    
         </div>
     </div>
 
 
   
- <!-- -------featuredProducts-------- -->
-<div class="small-container">
-
-<div class="row row-2">
-    <h2>All Products</h2>
-    <select name="" id="">
-        <option value="">Default Shorting</option>
-        <option value=""> Health Supliments</option>
-        <option value="">Food & Beverages</option>
-        <option value="">Personal Care</option>
-        <option value="">Skin Care</option>
-        
-    </select>
-</div>
-
 <!--------All Products Showcase------>
-    
+<div class="small-container">
+  
 <div class="row">
     <div class="col-4">
         <img src="images/healthfood/rg/rg.jpg" alt="">
@@ -73,37 +110,7 @@
         <p>$ 50.00</p>
     </div>
 </div>
-    <div class="row">
-        <div class="col-4">
-        <img src="images/personal/soap/soap.jpg" alt="">
-        <h4>Ganozhi Soap</h4>
-        <p>$ 50.00</p>
-        </div>
-        <div class="col-4">
-        <img src="images/personal/massageoil/massage_oil.jpg" alt="">
-        <h4>Gano Massage Oil</h4>
-        <p>$ 50.00</p>
-        </div>
-        <div class="col-4">
-        <img src="images/skincare/aloev/mask.jpg" alt="">
-        <h4>Aloe V. Mask</h4>
-        <p>$ 50.00</p>
-        </div>
-        <div class="col-4">
-        <img src="images/skincare/lipstick/coral_pink.jpg" alt="">
-        <h4>Coral Pink lipstick</h4>
-        <p>$ 50.00</p>
-        </div>
-        <!-- ------Pagination Here -------->
-
-    <div class="pagination">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#">&#8594;</a>
-     </div>
-    </div>
+   
     
 </div>
     
@@ -152,6 +159,11 @@
             <p class="copyright">All Right Reserved &reg; 2021 || Shiduzzaman</p>
         </div>
     </div>
+
+
+
+
+
 
 
 </body>

@@ -111,10 +111,10 @@ a{
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.5s;
+    transition: transform 0.7s;
 }
 .col-4:hover{
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 .col-4 img{
     width: 100%;
@@ -223,6 +223,10 @@ select{
     border: 1px solid #ff523b;
     padding: 5px;
 }
+select:focus{
+    outline: none;
+}
+
 
 
 /* Pagination links */
@@ -248,5 +252,168 @@ select{
 
   /*  ------About Page--------  */
 
-  
+  /* ------- single-products ------ - */
 
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product .col-2 img{
+    padding: 0;
+
+}
+.single-product h2{
+    margin: 20px 0;
+    font-weight: bold;
+}
+.single-product select{
+   display: block;
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+.single-product input{
+    width: 55px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+input:focus{
+    outline: none;
+}.small-img-row{
+    display: flex;
+    
+    
+}
+.small-img-col{
+    flex-basis: 40%;
+    cursor: pointer;
+}
+
+
+/* <!-- ------Cart Page-------- --> */
+.cart-page{
+    margin: 20px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color: tomato;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 55px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 90px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid tomato;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+/* Account page */
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#fcc5bd)
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 20px 0;
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: p 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 100px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#loginForm{
+    left: -300px;
+}
+#registerForm{
+left: 0;
+}
+form a{
+    font-size: 12px;
+}
+#indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}

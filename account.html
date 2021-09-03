@@ -18,25 +18,59 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="images/icon/logo.png" alt="" width="125px">
+                    <a href="index.html"><img src="images/icon/logo.png" alt="" width="125px"></a>
                 </div>
                 <nav>
-                    <ul><li><a href="index.html">Home</a></li></ul>
-                    <ul><li><a href="products.html">Products</a></li></ul>
-                    <ul><li><a href="about.html">About</a></li></ul>
-                    <ul><li><a href="contact.html">Contact</a></li></ul>
-                    <ul><li><a href="account.html">Account</a></li></ul>
+                <ul><li><a href="index.html">Home</a></li></ul>
+                <ul><li><a href="products.html">Products</a></li></ul>
+                <ul><li><a href="about.html">About</a></li></ul>
+                <ul><li><a href="contact.html">Contact</a></li></ul>
+                <ul><li><a href="account.html">Account</a></li></ul>
                 </nav>
-                <img src="images/icon/cart.png" alt="" width="30px" height="30px">
-              
+                <a href="cart.html"><img src="images/icon/cart.png" alt="" width="30px" height="30px"></a>
             </div>
-            
         </div>
     </div>
+
+         <!-- Navbar END Here -->
 
 
   
 <!-- ------Account Page-------- -->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/Market.jpg" alt="" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="indicator">
+                    </div>
+                    <form id="loginForm">
+                        <input type="text" placeholder="User Name">
+                        <input type="password" placeholder="Password">
+                        <button tabindex="submit" class="btn">Login</button>
+                        <a href="">Forget Password</a>
+                    </form>
+                    <form id="registerForm">
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="User Name">
+                        <input type="email" placeholder="Put Your Email">
+                        <input type="tel" placeholder="Your Mobile Number">
+                        <input type="password" placeholder="Password">
+                        <!-- <input type="password" placeholder="Confarm password"> -->
+                        <button tabindex="submit" class="btn">Register Now</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
     
@@ -83,7 +117,7 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright &copy; 2021 || Shiduzzaman</p>
+            <p class="copyright">All Right Reserved &reg; 2021 || Shiduzzaman</p>
         </div>
     </div>
 
